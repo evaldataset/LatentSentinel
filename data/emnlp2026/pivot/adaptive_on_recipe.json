@@ -1,0 +1,30 @@
+{
+ "qwen_aligned": {
+  "layer": 20,
+  "leace_rank": 3,
+  "n_heldout_jb": 1000,
+  "suffix_chars": 46,
+  "deploy_tau_erased": 0.9309,
+  "deploy_tau_baseline": 1.0,
+  "recipe_recall_clean": 0.943,
+  "recipe_recall_adv": 0.31,
+  "recipe_evasion_rate": 0.6713,
+  "baseline_recall_clean@deploy_tau": 0.256,
+  "baseline_recall_adv@deploy_tau": 0.121,
+  "baseline_evasion_rate": 0.5273
+ },
+ "llama_aligned": {
+  "layer": 16,
+  "leace_rank": 3,
+  "n_heldout_jb": 1000,
+  "suffix_chars": 122,
+  "deploy_tau_erased": 0.9257,
+  "deploy_tau_baseline": 1.0,
+  "recipe_recall_clean": 0.956,
+  "recipe_recall_adv": 0.932,
+  "recipe_evasion_rate": 0.0251,
+  "baseline_recall_clean@deploy_tau": 0.175,
+  "baseline_recall_adv@deploy_tau": 0.254,
+  "baseline_evasion_rate": -0.4514
+ }
+}

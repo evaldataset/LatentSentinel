@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# Large regenerable caches (run pivot_register_erase_remedy.py to recreate)
+data/emnlp2026/pivot/hs_*.npz
+
+# OS / editor
+.DS_Store
+*.swp
+*~
+
+# Logs
+*.log
+data/emnlp2026/*.log

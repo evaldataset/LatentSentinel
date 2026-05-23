@@ -1,0 +1,241 @@
+{
+ "jbshield": {
+  "qwen_aligned": {
+   "model": "qwen_aligned",
+   "method": "jbshield",
+   "roc_auc_indist": 0.7604,
+   "tau_conformal_a0.05_on_indist_benign": 0.178329,
+   "indist_jailbreak_recall_at_tau": 0.486,
+   "indist_benign_fpr_at_tau": 0.08,
+   "benign_stress_FPR_at_tau": {
+    "orbench_hard": 0.9454,
+    "toxicchat_benign": 0.3328,
+    "xstest_safe": 0.672
+   },
+   "benign_stress_FPR_overall": 0.5831
+  },
+  "llama_aligned": {
+   "model": "llama_aligned",
+   "method": "jbshield",
+   "roc_auc_indist": 0.7847,
+   "tau_conformal_a0.05_on_indist_benign": 0.316353,
+   "indist_jailbreak_recall_at_tau": 0.279,
+   "indist_benign_fpr_at_tau": 0.036,
+   "benign_stress_FPR_at_tau": {
+    "orbench_hard": 0.6694,
+    "toxicchat_benign": 0.0596,
+    "xstest_safe": 0.06
+   },
+   "benign_stress_FPR_overall": 0.2851
+  },
+  "mistral_aligned": {
+   "model": "mistral_aligned",
+   "method": "jbshield",
+   "roc_auc_indist": 0.9043,
+   "tau_conformal_a0.05_on_indist_benign": 0.310492,
+   "indist_jailbreak_recall_at_tau": 0.481,
+   "indist_benign_fpr_at_tau": 0.05,
+   "benign_stress_FPR_at_tau": {
+    "orbench_hard": 0.7582,
+    "toxicchat_benign": 0.1246,
+    "xstest_safe": 0.18
+   },
+   "benign_stress_FPR_overall": 0.3628
+  }
+ },
+ "fjd": {
+  "qwen_aligned": {
+   "model": "qwen_aligned",
+   "method": "fjd",
+   "roc_auc_indist": 0.497,
+   "tau_conformal_a0.05_on_indist_benign": -0.969925,
+   "indist_jailbreak_recall_at_tau": 0.055,
+   "indist_benign_fpr_at_tau": 0.054,
+   "benign_stress_FPR_at_tau": {
+    "orbench_hard": 0.0804,
+    "toxicchat_benign": 0.0621,
+    "xstest_safe": 0.072
+   },
+   "benign_stress_FPR_overall": 0.0695
+  },
+  "llama_aligned": {
+   "model": "llama_aligned",
+   "method": "fjd",
+   "roc_auc_indist": 0.4147,
+   "tau_conformal_a0.05_on_indist_benign": -0.924142,
+   "indist_jailbreak_recall_at_tau": 0.06,
+   "indist_benign_fpr_at_tau": 0.094,
+   "benign_stress_FPR_at_tau": {
+    "orbench_hard": 0.0318,
+    "toxicchat_benign": 0.1046,
+    "xstest_safe": 0.096
+   },
+   "benign_stress_FPR_overall": 0.0771
+  },
+  "mistral_aligned": {
+   "model": "mistral_aligned",
+   "method": "fjd",
+   "roc_auc_indist": 0.5869,
+   "tau_conformal_a0.05_on_indist_benign": -0.573867,
+   "indist_jailbreak_recall_at_tau": 0.04,
+   "indist_benign_fpr_at_tau": 0.036,
+   "benign_stress_FPR_at_tau": {
+    "orbench_hard": 0.0538,
+    "toxicchat_benign": 0.045,
+    "xstest_safe": 0.072
+   },
+   "benign_stress_FPR_overall": 0.0502
+  }
+ },
+ "gradsafe": {
+  "qwen_aligned": {
+   "model": "qwen_aligned",
+   "method": "gradsafe",
+   "roc_auc_indist": 0.7979,
+   "tau_conformal_a0.05_on_indist_benign": 0.067261,
+   "indist_jailbreak_recall_at_tau": 0.566,
+   "indist_benign_fpr_at_tau": 0.075,
+   "benign_stress_FPR_at_tau": {
+    "orbench_hard": 0.787,
+    "toxicchat_benign": 0.2372,
+    "xstest_safe": 0.628
+   },
+   "benign_stress_FPR_overall": 0.4679
+  },
+  "llama_aligned": {
+   "model": "llama_aligned",
+   "method": "gradsafe",
+   "roc_auc_indist": 0.8827,
+   "tau_conformal_a0.05_on_indist_benign": 0.066711,
+   "indist_jailbreak_recall_at_tau": 0.619,
+   "indist_benign_fpr_at_tau": 0.043,
+   "benign_stress_FPR_at_tau": {
+    "orbench_hard": 0.7339,
+    "toxicchat_benign": 0.0475,
+    "xstest_safe": 0.08
+   },
+   "benign_stress_FPR_overall": 0.3036
+  },
+  "mistral_aligned": {
+   "model": "mistral_aligned",
+   "method": "gradsafe",
+   "roc_auc_indist": 0.8765,
+   "tau_conformal_a0.05_on_indist_benign": 0.077271,
+   "indist_jailbreak_recall_at_tau": 0.651,
+   "indist_benign_fpr_at_tau": 0.049,
+   "benign_stress_FPR_at_tau": {
+    "orbench_hard": 0.6422,
+    "toxicchat_benign": 0.2002,
+    "xstest_safe": 0.4
+   },
+   "benign_stress_FPR_overall": 0.3776
+  }
+ },
+ "bert": {
+  "qwen_aligned": {
+   "model": "qwen_aligned",
+   "method": "bert",
+   "roc_auc_indist": 0.9993,
+   "tau_conformal_a0.05_on_indist_benign": 0.000212,
+   "indist_jailbreak_recall_at_tau": 0.997,
+   "indist_benign_fpr_at_tau": 0.054,
+   "benign_stress_FPR_at_tau": {
+    "orbench_hard": 0.9644,
+    "toxicchat_benign": 0.7628,
+    "xstest_safe": 0.96
+   },
+   "benign_stress_FPR_overall": 0.8511
+  },
+  "llama_aligned": {
+   "model": "llama_aligned",
+   "method": "bert",
+   "roc_auc_indist": 0.9993,
+   "tau_conformal_a0.05_on_indist_benign": 0.000212,
+   "indist_jailbreak_recall_at_tau": 0.997,
+   "indist_benign_fpr_at_tau": 0.054,
+   "benign_stress_FPR_at_tau": {
+    "orbench_hard": 0.9644,
+    "toxicchat_benign": 0.7628,
+    "xstest_safe": 0.96
+   },
+   "benign_stress_FPR_overall": 0.8511
+  }
+ },
+ "hiddendetect_exact": {
+  "qwen_aligned": {
+   "model": "qwen_aligned",
+   "method": "hiddendetect_exact",
+   "roc_auc_indist": 0.8649,
+   "tau_conformal_a0.05_on_indist_benign": 0.025082,
+   "indist_jailbreak_recall_at_tau": 0.576,
+   "indist_benign_fpr_at_tau": 0.063,
+   "benign_stress_FPR_at_tau": {
+    "orbench_hard": 0.7665,
+    "toxicchat_benign": 0.1066,
+    "xstest_safe": 0.456
+   },
+   "benign_stress_FPR_overall": 0.3751
+  },
+  "llama_aligned": {
+   "model": "llama_aligned",
+   "method": "hiddendetect_exact",
+   "roc_auc_indist": 0.7261,
+   "tau_conformal_a0.05_on_indist_benign": 0.037361,
+   "indist_jailbreak_recall_at_tau": 0.144,
+   "indist_benign_fpr_at_tau": 0.057,
+   "benign_stress_FPR_at_tau": {
+    "orbench_hard": 0.2328,
+    "toxicchat_benign": 0.1116,
+    "xstest_safe": 0.144
+   },
+   "benign_stress_FPR_overall": 0.1587
+  }
+ },
+ "arditi_refusal": {
+  "qwen_aligned": {
+   "model": "qwen_aligned",
+   "method": "arditi_refusal",
+   "roc_auc_indist": 0.9887,
+   "calibration_auc": 0.9914,
+   "tau_conformal_a0.05_on_indist_benign": 19.228777,
+   "indist_benign_fpr_at_tau": 0.065,
+   "indist_jailbreak_recall_at_tau": 0.963,
+   "benign_stress_FPR_at_tau": {
+    "orbench_hard": 0.9447,
+    "toxicchat_benign": 0.2112,
+    "xstest_safe": 0.552
+   },
+   "benign_stress_FPR_overall": 0.5063
+  },
+  "llama_aligned": {
+   "model": "llama_aligned",
+   "method": "arditi_refusal",
+   "roc_auc_indist": 0.9828,
+   "calibration_auc": 0.9813,
+   "tau_conformal_a0.05_on_indist_benign": -0.275975,
+   "indist_benign_fpr_at_tau": 0.046,
+   "indist_jailbreak_recall_at_tau": 0.915,
+   "benign_stress_FPR_at_tau": {
+    "orbench_hard": 0.9735,
+    "toxicchat_benign": 0.1421,
+    "xstest_safe": 0.448
+   },
+   "benign_stress_FPR_overall": 0.471
+  },
+  "mistral_aligned": {
+   "model": "mistral_aligned",
+   "method": "arditi_refusal",
+   "roc_auc_indist": 0.9908,
+   "calibration_auc": 0.9931,
+   "tau_conformal_a0.05_on_indist_benign": 1.345552,
+   "indist_benign_fpr_at_tau": 0.059,
+   "indist_jailbreak_recall_at_tau": 0.969,
+   "benign_stress_FPR_at_tau": {
+    "orbench_hard": 0.9265,
+    "toxicchat_benign": 0.2928,
+    "xstest_safe": 0.72
+   },
+   "benign_stress_FPR_overall": 0.5571
+  }
+ }
+}

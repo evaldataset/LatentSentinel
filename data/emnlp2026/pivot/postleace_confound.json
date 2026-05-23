@@ -1,0 +1,35 @@
+{
+ "qwen_aligned": {
+  "leace_rank": 3,
+  "n_eval": 2000,
+  "auc_surface_vs_true_label": 0.9001,
+  "auc_surface_vs_baseline_score": 0.898,
+  "auc_surface_vs_erased_score": 0.8891,
+  "mean_score_base_benign": 0.0093,
+  "mean_score_er_benign": 0.0119,
+  "mean_score_base_jb": 0.9877,
+  "mean_score_er_jb": 0.9668
+ },
+ "llama_aligned": {
+  "leace_rank": 3,
+  "n_eval": 2000,
+  "auc_surface_vs_true_label": 0.9001,
+  "auc_surface_vs_baseline_score": 0.8984,
+  "auc_surface_vs_erased_score": 0.8948,
+  "mean_score_base_benign": 0.0102,
+  "mean_score_er_benign": 0.009,
+  "mean_score_base_jb": 0.9899,
+  "mean_score_er_jb": 0.9743
+ },
+ "mistral_aligned": {
+  "leace_rank": 3,
+  "n_eval": 2000,
+  "auc_surface_vs_true_label": 0.9001,
+  "auc_surface_vs_baseline_score": 0.8985,
+  "auc_surface_vs_erased_score": 0.8933,
+  "mean_score_base_benign": 0.0083,
+  "mean_score_er_benign": 0.0068,
+  "mean_score_base_jb": 0.992,
+  "mean_score_er_jb": 0.9711
+ }
+}

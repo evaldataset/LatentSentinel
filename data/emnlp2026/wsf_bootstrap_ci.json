@@ -1,0 +1,207 @@
+{
+ "bert/llama_aligned": {
+  "auc_indist": [
+   0.9993,
+   0.9983,
+   1.0
+  ],
+  "benign_stress_FPR@tau": [
+   0.8511,
+   0.8399,
+   0.8626
+  ]
+ },
+ "bert/qwen_aligned": {
+  "auc_indist": [
+   0.9993,
+   0.9983,
+   1.0
+  ],
+  "benign_stress_FPR@tau": [
+   0.8512,
+   0.8382,
+   0.8621
+  ]
+ },
+ "fjd/llama_aligned": {
+  "auc_indist": [
+   0.4153,
+   0.3969,
+   0.4347
+  ],
+  "benign_stress_FPR@tau": [
+   0.077,
+   0.0684,
+   0.0852
+  ]
+ },
+ "fjd/qwen_aligned": {
+  "auc_indist": [
+   0.4971,
+   0.4771,
+   0.5162
+  ],
+  "benign_stress_FPR@tau": [
+   0.0696,
+   0.0611,
+   0.0788
+  ]
+ },
+ "gradsafe/llama_aligned": {
+  "auc_indist": [
+   0.8826,
+   0.8676,
+   0.8966
+  ],
+  "benign_stress_FPR@tau": [
+   0.3033,
+   0.2885,
+   0.3171
+  ]
+ },
+ "gradsafe/qwen_aligned": {
+  "auc_indist": [
+   0.7978,
+   0.7787,
+   0.8163
+  ],
+  "benign_stress_FPR@tau": [
+   0.4678,
+   0.45,
+   0.4836
+  ]
+ },
+ "hiddendetect_exact/llama_aligned": {
+  "auc_indist": [
+   0.7265,
+   0.7034,
+   0.7493
+  ],
+  "benign_stress_FPR@tau": [
+   0.1585,
+   0.1469,
+   0.1705
+  ]
+ },
+ "hiddendetect_exact/qwen_aligned": {
+  "auc_indist": [
+   0.8646,
+   0.8481,
+   0.8795
+  ],
+  "benign_stress_FPR@tau": [
+   0.3752,
+   0.36,
+   0.3922
+  ]
+ },
+ "jbshield/llama_aligned": {
+  "auc_indist": [
+   0.7846,
+   0.7646,
+   0.8027
+  ],
+  "benign_stress_FPR@tau": [
+   0.285,
+   0.2705,
+   0.2997
+  ]
+ },
+ "jbshield/qwen_aligned": {
+  "auc_indist": [
+   0.7605,
+   0.74,
+   0.7806
+  ],
+  "benign_stress_FPR@tau": [
+   0.5828,
+   0.5669,
+   0.5988
+  ]
+ },
+ "_tradeoff_spearman": {
+  "rho": 0.8171,
+  "p_value": 0.0039,
+  "n_cells": 10,
+  "points": [
+   [
+    0.415,
+    0.077,
+    "fjd/llama_aligned"
+   ],
+   [
+    0.497,
+    0.07,
+    "fjd/qwen_aligned"
+   ],
+   [
+    0.726,
+    0.159,
+    "hiddendetect_exact/llama_aligned"
+   ],
+   [
+    0.76,
+    0.583,
+    "jbshield/qwen_aligned"
+   ],
+   [
+    0.785,
+    0.285,
+    "jbshield/llama_aligned"
+   ],
+   [
+    0.798,
+    0.468,
+    "gradsafe/qwen_aligned"
+   ],
+   [
+    0.865,
+    0.375,
+    "hiddendetect_exact/qwen_aligned"
+   ],
+   [
+    0.883,
+    0.304,
+    "gradsafe/llama_aligned"
+   ],
+   [
+    0.999,
+    0.851,
+    "bert/llama_aligned"
+   ],
+   [
+    0.999,
+    0.851,
+    "bert/qwen_aligned"
+   ]
+  ]
+ },
+ "OURPROBE_overrefusal/llama_aligned": {
+  "benign_stress_FPR@conf_tau": [
+   0.6829,
+   0.6678,
+   0.6983
+  ]
+ },
+ "OURPROBE_overrefusal/qwen_aligned": {
+  "benign_stress_FPR@conf_tau": [
+   0.9824,
+   0.9776,
+   0.9865
+  ]
+ },
+ "WSC_evasion/llama_aligned": {
+  "evasion_rate": [
+   1.0,
+   1.0,
+   1.0
+  ]
+ },
+ "WSC_evasion/qwen_aligned": {
+  "evasion_rate": [
+   1.0,
+   1.0,
+   1.0
+  ]
+ }
+}

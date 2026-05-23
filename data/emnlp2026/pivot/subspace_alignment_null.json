@@ -1,0 +1,34 @@
+{
+ "n_null": 1000,
+ "observed_disparity": {
+  "qwen_aligned__vs__llama_aligned": 0.02153061222511507,
+  "qwen_aligned__vs__mistral_aligned": 0.015902549749234683,
+  "llama_aligned__vs__mistral_aligned": 0.03627717109909977
+ },
+ "per_pair": {
+  "qwen_aligned__vs__llama_aligned": {
+   "observed": 0.02153,
+   "null_mean": 0.36804,
+   "null_median": 0.3434,
+   "null_p05": 0.09408,
+   "null_p95": 0.74086,
+   "p_value_observed_le_null": 0.001
+  },
+  "qwen_aligned__vs__mistral_aligned": {
+   "observed": 0.0159,
+   "null_mean": 0.37207,
+   "null_median": 0.35675,
+   "null_p05": 0.09355,
+   "null_p95": 0.72436,
+   "p_value_observed_le_null": 0.001
+  },
+  "llama_aligned__vs__mistral_aligned": {
+   "observed": 0.03628,
+   "null_mean": 0.375,
+   "null_median": 0.35172,
+   "null_p05": 0.09123,
+   "null_p95": 0.73635,
+   "p_value_observed_le_null": 0.005
+  }
+ }
+}

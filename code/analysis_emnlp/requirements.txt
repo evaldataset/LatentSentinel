@@ -1,0 +1,21 @@
+# Pinned env for the EMNLP 2026 revision analysis (WS-A..G).
+# Reproduces the `bootstrap-latents` conda env used for all data/emnlp2026 artifacts.
+# Python 3.11. CUDA 12.4 wheels (torch).
+# Install:
+#   python -m venv .venv && . .venv/bin/activate
+#   pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu124
+# (or use the existing /home/<user>/miniconda3/envs/bootstrap-latents).
+# For CPU-only re-analysis (pivot_* scripts): install torch==2.6.0 (no +cu124) instead.
+--extra-index-url https://download.pytorch.org/whl/cu124
+torch==2.6.0+cu124
+transformers==4.57.6
+datasets==2.21.0
+numpy==1.26.4
+scikit-learn==1.5.2
+pandas==2.2.3
+accelerate==1.2.1
+scipy==1.14.1
+tokenizers==0.22.2
+safetensors==0.4.5
+huggingface-hub==0.36.2
+matplotlib==3.9.2

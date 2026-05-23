@@ -1,0 +1,59 @@
+{
+  "qwen_aligned": {
+    "model": "qwen_aligned",
+    "method": "HiddenDetect-style (training-free)",
+    "refusal_band_layers": [
+      14,
+      25
+    ],
+    "n_refusal_tokens": 30,
+    "roc_auc_indist": 0.7274,
+    "tau_conformal_a0.05_on_indist_benign": 0.0,
+    "indist_jailbreak_recall_at_tau": 0.194,
+    "indist_benign_fpr_at_tau": 0.041,
+    "benign_stress_FPR_at_tau": {
+      "orbench_hard": 0.0538,
+      "toxicchat_benign": 0.0701,
+      "xstest_safe": 0.0
+    },
+    "benign_stress_FPR_overall": 0.0592
+  },
+  "llama_aligned": {
+    "model": "llama_aligned",
+    "method": "HiddenDetect-style (training-free)",
+    "refusal_band_layers": [
+      16,
+      28
+    ],
+    "n_refusal_tokens": 30,
+    "roc_auc_indist": 0.7194,
+    "tau_conformal_a0.05_on_indist_benign": 0.0004,
+    "indist_jailbreak_recall_at_tau": 0.121,
+    "indist_benign_fpr_at_tau": 0.057,
+    "benign_stress_FPR_at_tau": {
+      "orbench_hard": 0.0743,
+      "toxicchat_benign": 0.1031,
+      "xstest_safe": 0.316
+    },
+    "benign_stress_FPR_overall": 0.1074
+  },
+  "mistral_aligned": {
+    "model": "mistral_aligned",
+    "method": "HiddenDetect-style (training-free)",
+    "refusal_band_layers": [
+      16,
+      28
+    ],
+    "n_refusal_tokens": 15,
+    "roc_auc_indist": 0.8364,
+    "tau_conformal_a0.05_on_indist_benign": 0.0005,
+    "indist_jailbreak_recall_at_tau": 0.179,
+    "indist_benign_fpr_at_tau": 0.053,
+    "benign_stress_FPR_at_tau": {
+      "orbench_hard": 0.0136,
+      "toxicchat_benign": 0.035,
+      "xstest_safe": 0.004
+    },
+    "benign_stress_FPR_overall": 0.025
+  }
+}

@@ -1,0 +1,114 @@
+{
+ "per_model_configurations": {
+  "qwen_aligned": {
+   "source_order": [
+    "indist_benign",
+    "orbench_hard",
+    "toxicchat_benign",
+    "xstest_safe"
+   ],
+   "rank": 3,
+   "centroids_in_register_subspace": [
+    [
+     -1.8465999364852905,
+     -11.162721633911133,
+     6.254486083984375
+    ],
+    [
+     17.660839080810547,
+     14.834155082702637,
+     -5.299710750579834
+    ],
+    [
+     -9.964852333068848,
+     1.4817862510681152,
+     -0.9794692397117615
+    ],
+    [
+     1.2333201169967651,
+     -0.8056817054748535,
+     -14.246689796447754
+    ]
+   ]
+  },
+  "llama_aligned": {
+   "source_order": [
+    "indist_benign",
+    "orbench_hard",
+    "toxicchat_benign",
+    "xstest_safe"
+   ],
+   "rank": 3,
+   "centroids_in_register_subspace": [
+    [
+     -0.4730416536331177,
+     1.3570729494094849,
+     0.6784820556640625
+    ],
+    [
+     2.469259262084961,
+     -2.0734806060791016,
+     -0.539675772190094
+    ],
+    [
+     -1.1355013847351074,
+     -0.04113158583641052,
+     -0.08251180499792099
+    ],
+    [
+     -0.16855278611183167,
+     0.41182562708854675,
+     -1.921093463897705
+    ]
+   ]
+  },
+  "mistral_aligned": {
+   "source_order": [
+    "indist_benign",
+    "orbench_hard",
+    "toxicchat_benign",
+    "xstest_safe"
+   ],
+   "rank": 3,
+   "centroids_in_register_subspace": [
+    [
+     0.12286318838596344,
+     0.7586895227432251,
+     -0.43214866518974304
+    ],
+    [
+     -1.1950877904891968,
+     -0.9348776340484619,
+     0.31482505798339844
+    ],
+    [
+     0.674344003200531,
+     -0.1502377837896347,
+     0.06536865234375
+    ],
+    [
+     -0.0669783502817154,
+     0.0635991171002388,
+     1.2737462520599365
+    ]
+   ]
+  }
+ },
+ "pairwise_alignment": {
+  "qwen_aligned__vs__llama_aligned": {
+   "rank_used": 3,
+   "procrustes_disparity": 0.0215,
+   "interpretation": "strongly aligned (universal)"
+  },
+  "qwen_aligned__vs__mistral_aligned": {
+   "rank_used": 3,
+   "procrustes_disparity": 0.0159,
+   "interpretation": "strongly aligned (universal)"
+  },
+  "llama_aligned__vs__mistral_aligned": {
+   "rank_used": 3,
+   "procrustes_disparity": 0.0363,
+   "interpretation": "strongly aligned (universal)"
+  }
+ }
+}

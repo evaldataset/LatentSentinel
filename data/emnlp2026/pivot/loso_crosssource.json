@@ -1,0 +1,170 @@
+{
+ "qwen_aligned": {
+  "orbench_hard": {
+   "leace_rank": 2,
+   "n_held_source_test": 1319,
+   "fit_sources": [
+    "toxicchat_benign",
+    "xstest_safe"
+   ],
+   "baseline": {
+    "FPR_crosssource_at_indist_tau": 0.9848,
+    "FPR_crosssource_at_deploy_tau": 0.6914,
+    "recall_at_deploy_tau": 0.827
+   },
+   "register_erased": {
+    "FPR_crosssource_at_indist_tau": 0.9894,
+    "FPR_crosssource_at_deploy_tau": 0.9363,
+    "recall_at_deploy_tau": 0.968
+   }
+  },
+  "toxicchat_benign": {
+   "leace_rank": 2,
+   "n_held_source_test": 1998,
+   "fit_sources": [
+    "orbench_hard",
+    "xstest_safe"
+   ],
+   "baseline": {
+    "FPR_crosssource_at_indist_tau": 0.6481,
+    "FPR_crosssource_at_deploy_tau": 0.0025,
+    "recall_at_deploy_tau": 0.184
+   },
+   "register_erased": {
+    "FPR_crosssource_at_indist_tau": 0.498,
+    "FPR_crosssource_at_deploy_tau": 0.2508,
+    "recall_at_deploy_tau": 0.898
+   }
+  },
+  "xstest_safe": {
+   "leace_rank": 2,
+   "n_held_source_test": 250,
+   "fit_sources": [
+    "orbench_hard",
+    "toxicchat_benign"
+   ],
+   "baseline": {
+    "FPR_crosssource_at_indist_tau": 0.908,
+    "FPR_crosssource_at_deploy_tau": 0.024,
+    "recall_at_deploy_tau": 0.261
+   },
+   "register_erased": {
+    "FPR_crosssource_at_indist_tau": 0.852,
+    "FPR_crosssource_at_deploy_tau": 0.384,
+    "recall_at_deploy_tau": 0.955
+   }
+  }
+ },
+ "llama_aligned": {
+  "orbench_hard": {
+   "leace_rank": 2,
+   "n_held_source_test": 1319,
+   "fit_sources": [
+    "toxicchat_benign",
+    "xstest_safe"
+   ],
+   "baseline": {
+    "FPR_crosssource_at_indist_tau": 0.9955,
+    "FPR_crosssource_at_deploy_tau": 0.9037,
+    "recall_at_deploy_tau": 0.876
+   },
+   "register_erased": {
+    "FPR_crosssource_at_indist_tau": 0.9977,
+    "FPR_crosssource_at_deploy_tau": 0.9765,
+    "recall_at_deploy_tau": 0.977
+   }
+  },
+  "toxicchat_benign": {
+   "leace_rank": 2,
+   "n_held_source_test": 1998,
+   "fit_sources": [
+    "orbench_hard",
+    "xstest_safe"
+   ],
+   "baseline": {
+    "FPR_crosssource_at_indist_tau": 0.5325,
+    "FPR_crosssource_at_deploy_tau": 0.0025,
+    "recall_at_deploy_tau": 0.115
+   },
+   "register_erased": {
+    "FPR_crosssource_at_indist_tau": 0.3919,
+    "FPR_crosssource_at_deploy_tau": 0.1617,
+    "recall_at_deploy_tau": 0.939
+   }
+  },
+  "xstest_safe": {
+   "leace_rank": 2,
+   "n_held_source_test": 250,
+   "fit_sources": [
+    "orbench_hard",
+    "toxicchat_benign"
+   ],
+   "baseline": {
+    "FPR_crosssource_at_indist_tau": 0.904,
+    "FPR_crosssource_at_deploy_tau": 0.024,
+    "recall_at_deploy_tau": 0.199
+   },
+   "register_erased": {
+    "FPR_crosssource_at_indist_tau": 0.892,
+    "FPR_crosssource_at_deploy_tau": 0.576,
+    "recall_at_deploy_tau": 0.954
+   }
+  }
+ },
+ "mistral_aligned": {
+  "orbench_hard": {
+   "leace_rank": 2,
+   "n_held_source_test": 1319,
+   "fit_sources": [
+    "toxicchat_benign",
+    "xstest_safe"
+   ],
+   "baseline": {
+    "FPR_crosssource_at_indist_tau": 0.997,
+    "FPR_crosssource_at_deploy_tau": 0.6998,
+    "recall_at_deploy_tau": 0.82
+   },
+   "register_erased": {
+    "FPR_crosssource_at_indist_tau": 0.9773,
+    "FPR_crosssource_at_deploy_tau": 0.9212,
+    "recall_at_deploy_tau": 0.984
+   }
+  },
+  "toxicchat_benign": {
+   "leace_rank": 2,
+   "n_held_source_test": 1998,
+   "fit_sources": [
+    "orbench_hard",
+    "xstest_safe"
+   ],
+   "baseline": {
+    "FPR_crosssource_at_indist_tau": 0.7002,
+    "FPR_crosssource_at_deploy_tau": 0.0005,
+    "recall_at_deploy_tau": 0.238
+   },
+   "register_erased": {
+    "FPR_crosssource_at_indist_tau": 0.461,
+    "FPR_crosssource_at_deploy_tau": 0.1431,
+    "recall_at_deploy_tau": 0.937
+   }
+  },
+  "xstest_safe": {
+   "leace_rank": 2,
+   "n_held_source_test": 250,
+   "fit_sources": [
+    "orbench_hard",
+    "toxicchat_benign"
+   ],
+   "baseline": {
+    "FPR_crosssource_at_indist_tau": 0.936,
+    "FPR_crosssource_at_deploy_tau": 0.012,
+    "recall_at_deploy_tau": 0.301
+   },
+   "register_erased": {
+    "FPR_crosssource_at_indist_tau": 0.78,
+    "FPR_crosssource_at_deploy_tau": 0.464,
+    "recall_at_deploy_tau": 0.964
+   }
+  }
+ }
+}

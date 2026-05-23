@@ -1,0 +1,78 @@
+{
+ "backbone": "mistral_aligned",
+ "hf": "unsloth/mistral-7b-instruct-v0.3",
+ "layers": [
+  4,
+  8,
+  12,
+  16,
+  20,
+  24,
+  28
+ ],
+ "per_layer": {
+  "4": {
+   "probe_auc": 0.99896,
+   "leace_singular_values": [
+    0.49781,
+    0.22237,
+    0.11537
+   ],
+   "leace_rank": 3
+  },
+  "8": {
+   "probe_auc": 0.99984,
+   "leace_singular_values": [
+    0.54938,
+    0.2734,
+    0.15584
+   ],
+   "leace_rank": 3
+  },
+  "12": {
+   "probe_auc": 0.99981,
+   "leace_singular_values": [
+    0.5641,
+    0.28916,
+    0.16572
+   ],
+   "leace_rank": 3
+  },
+  "16": {
+   "probe_auc": 0.99984,
+   "leace_singular_values": [
+    0.5735,
+    0.3037,
+    0.17657
+   ],
+   "leace_rank": 3
+  },
+  "20": {
+   "probe_auc": 0.99981,
+   "leace_singular_values": [
+    0.5784,
+    0.31324,
+    0.18364
+   ],
+   "leace_rank": 3
+  },
+  "24": {
+   "probe_auc": 0.99965,
+   "leace_singular_values": [
+    0.58119,
+    0.31723,
+    0.18658
+   ],
+   "leace_rank": 3
+  },
+  "28": {
+   "probe_auc": 0.99923,
+   "leace_singular_values": [
+    0.58338,
+    0.32021,
+    0.18903
+   ],
+   "leace_rank": 3
+  }
+ }
+}

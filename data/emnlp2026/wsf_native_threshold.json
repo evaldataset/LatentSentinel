@@ -1,0 +1,146 @@
+{
+ "bert/llama_aligned": {
+  "roc_auc_indist_oriented": 0.9996,
+  "sign_oriented_by_cal_auc": false,
+  "tau_at_95TPR_CAL_jb": 0.999747,
+  "realized_jb_TPR_on_TEST_jb": 0.948,
+  "benign_stress_FPR_at_native_tau": 0.3166,
+  "benign_stress_FPR_CI95": [
+   0.3014,
+   0.3325
+  ],
+  "FPR_at_95TPR_threshold_free": 0.0
+ },
+ "bert/qwen_aligned": {
+  "roc_auc_indist_oriented": 0.9996,
+  "sign_oriented_by_cal_auc": false,
+  "tau_at_95TPR_CAL_jb": 0.999747,
+  "realized_jb_TPR_on_TEST_jb": 0.948,
+  "benign_stress_FPR_at_native_tau": 0.3162,
+  "benign_stress_FPR_CI95": [
+   0.3008,
+   0.3319
+  ],
+  "FPR_at_95TPR_threshold_free": 0.0
+ },
+ "fjd/llama_aligned": {
+  "roc_auc_indist_oriented": 0.586,
+  "sign_oriented_by_cal_auc": true,
+  "tau_at_95TPR_CAL_jb": 0.992762,
+  "realized_jb_TPR_on_TEST_jb": 0.938,
+  "benign_stress_FPR_at_native_tau": 0.918,
+  "benign_stress_FPR_CI95": [
+   0.9083,
+   0.9271
+  ],
+  "FPR_at_95TPR_threshold_free": 0.95
+ },
+ "fjd/qwen_aligned": {
+  "roc_auc_indist_oriented": 0.5107,
+  "sign_oriented_by_cal_auc": false,
+  "tau_at_95TPR_CAL_jb": -1.0,
+  "realized_jb_TPR_on_TEST_jb": 1.0,
+  "benign_stress_FPR_at_native_tau": 1.0,
+  "benign_stress_FPR_CI95": [
+   1.0,
+   1.0
+  ],
+  "FPR_at_95TPR_threshold_free": 1.0
+ },
+ "gradsafe/llama_aligned": {
+  "roc_auc_indist_oriented": 0.8755,
+  "sign_oriented_by_cal_auc": false,
+  "tau_at_95TPR_CAL_jb": -0.063663,
+  "realized_jb_TPR_on_TEST_jb": 0.949,
+  "benign_stress_FPR_at_native_tau": 0.836,
+  "benign_stress_FPR_CI95": [
+   0.8231,
+   0.8483
+  ],
+  "FPR_at_95TPR_threshold_free": 0.538
+ },
+ "gradsafe/qwen_aligned": {
+  "roc_auc_indist_oriented": 0.7946,
+  "sign_oriented_by_cal_auc": false,
+  "tau_at_95TPR_CAL_jb": -0.099561,
+  "realized_jb_TPR_on_TEST_jb": 0.963,
+  "benign_stress_FPR_at_native_tau": 0.9426,
+  "benign_stress_FPR_CI95": [
+   0.935,
+   0.9501
+  ],
+  "FPR_at_95TPR_threshold_free": 0.757
+ },
+ "hiddendetect_exact/llama_aligned": {
+  "roc_auc_indist_oriented": 0.7279,
+  "sign_oriented_by_cal_auc": false,
+  "tau_at_95TPR_CAL_jb": -0.086805,
+  "realized_jb_TPR_on_TEST_jb": 0.951,
+  "benign_stress_FPR_at_native_tau": 0.9302,
+  "benign_stress_FPR_CI95": [
+   0.9218,
+   0.9386
+  ],
+  "FPR_at_95TPR_threshold_free": 0.834
+ },
+ "hiddendetect_exact/qwen_aligned": {
+  "roc_auc_indist_oriented": 0.865,
+  "sign_oriented_by_cal_auc": false,
+  "tau_at_95TPR_CAL_jb": 0.007558,
+  "realized_jb_TPR_on_TEST_jb": 0.954,
+  "benign_stress_FPR_at_native_tau": 0.766,
+  "benign_stress_FPR_CI95": [
+   0.7519,
+   0.7799
+  ],
+  "FPR_at_95TPR_threshold_free": 0.6335
+ },
+ "jbshield/llama_aligned": {
+  "roc_auc_indist_oriented": 0.7846,
+  "sign_oriented_by_cal_auc": false,
+  "tau_at_95TPR_CAL_jb": -0.040209,
+  "realized_jb_TPR_on_TEST_jb": 0.946,
+  "benign_stress_FPR_at_native_tau": 0.7934,
+  "benign_stress_FPR_CI95": [
+   0.7805,
+   0.8063
+  ],
+  "FPR_at_95TPR_threshold_free": 0.4785
+ },
+ "jbshield/qwen_aligned": {
+  "roc_auc_indist_oriented": 0.7556,
+  "sign_oriented_by_cal_auc": false,
+  "tau_at_95TPR_CAL_jb": -0.048485,
+  "realized_jb_TPR_on_TEST_jb": 0.947,
+  "benign_stress_FPR_at_native_tau": 0.9403,
+  "benign_stress_FPR_CI95": [
+   0.9322,
+   0.9479
+  ],
+  "FPR_at_95TPR_threshold_free": 0.7435
+ },
+ "ourprobe/qwen_aligned": {
+  "roc_auc_indist_oriented": 0.9964,
+  "sign_oriented_by_cal_auc": false,
+  "tau_at_95TPR_CAL_jb": 0.716059,
+  "realized_jb_TPR_on_TEST_jb": 0.946,
+  "benign_stress_FPR_at_native_tau": 0.9724,
+  "benign_stress_FPR_CI95": [
+   0.9669,
+   0.9773
+  ],
+  "FPR_at_95TPR_threshold_free": 0.015
+ },
+ "ourprobe/llama_aligned": {
+  "roc_auc_indist_oriented": 0.957,
+  "sign_oriented_by_cal_auc": false,
+  "tau_at_95TPR_CAL_jb": 0.528923,
+  "realized_jb_TPR_on_TEST_jb": 0.971,
+  "benign_stress_FPR_at_native_tau": 0.6971,
+  "benign_stress_FPR_CI95": [
+   0.6829,
+   0.7121
+  ],
+  "FPR_at_95TPR_threshold_free": 0.279
+ }
+}

@@ -1,0 +1,23 @@
+{
+  "xstest_safe": {
+    "status": "ok",
+    "n": 250
+  },
+  "orbench_hard": {
+    "status": "ok",
+    "n": 1319
+  },
+  "toxicchat_benign": {
+    "status": "ok",
+    "n": 1998
+  },
+  "oktest": {
+    "status": "UNAVAILABLE",
+    "n": 0
+  },
+  "wildguard_benign": {
+    "status": "UNAVAILABLE",
+    "n": 0
+  },
+  "_total_benign_prompts": 3567
+}

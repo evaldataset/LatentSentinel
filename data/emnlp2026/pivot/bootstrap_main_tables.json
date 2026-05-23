@@ -1,0 +1,215 @@
+{
+ "qwen_aligned": {
+  "baseline": {
+   "indistcal_FPR_OOD": {
+    "pt": 0.779,
+    "CI95": [
+     0.7546,
+     0.8017
+    ]
+   },
+   "deploy_FPR_OOD": {
+    "pt": 0.0378,
+    "CI95": [
+     0.0269,
+     0.0487
+    ]
+   },
+   "deploy_recall_jb": {
+    "pt": 0.256,
+    "CI95": [
+     0.23,
+     0.285
+    ]
+   }
+  },
+  "erased": {
+   "indistcal_FPR_OOD": {
+    "pt": 0.1748,
+    "CI95": [
+     0.1529,
+     0.1966
+    ]
+   },
+   "deploy_FPR_OOD": {
+    "pt": 0.0521,
+    "CI95": [
+     0.0403,
+     0.0639
+    ]
+   },
+   "deploy_recall_jb": {
+    "pt": 0.945,
+    "CI95": [
+     0.931,
+     0.959
+    ]
+   }
+  },
+  "regbal": {
+   "indistcal_FPR_OOD": {
+    "pt": 0.1336,
+    "CI95": [
+     0.1151,
+     0.1529
+    ]
+   },
+   "deploy_FPR_OOD": {
+    "pt": 0.0454,
+    "CI95": [
+     0.0344,
+     0.0571
+    ]
+   },
+   "deploy_recall_jb": {
+    "pt": 0.982,
+    "CI95": [
+     0.973,
+     0.99
+    ]
+   }
+  }
+ },
+ "llama_aligned": {
+  "baseline": {
+   "indistcal_FPR_OOD": {
+    "pt": 0.7101,
+    "CI95": [
+     0.6857,
+     0.7345
+    ]
+   },
+   "deploy_FPR_OOD": {
+    "pt": 0.0361,
+    "CI95": [
+     0.0261,
+     0.0479
+    ]
+   },
+   "deploy_recall_jb": {
+    "pt": 0.175,
+    "CI95": [
+     0.152,
+     0.196
+    ]
+   }
+  },
+  "erased": {
+   "indistcal_FPR_OOD": {
+    "pt": 0.2034,
+    "CI95": [
+     0.1798,
+     0.2269
+    ]
+   },
+   "deploy_FPR_OOD": {
+    "pt": 0.042,
+    "CI95": [
+     0.0311,
+     0.0538
+    ]
+   },
+   "deploy_recall_jb": {
+    "pt": 0.954,
+    "CI95": [
+     0.942,
+     0.966
+    ]
+   }
+  },
+  "regbal": {
+   "indistcal_FPR_OOD": {
+    "pt": 0.1387,
+    "CI95": [
+     0.1193,
+     0.158
+    ]
+   },
+   "deploy_FPR_OOD": {
+    "pt": 0.0412,
+    "CI95": [
+     0.0303,
+     0.0521
+    ]
+   },
+   "deploy_recall_jb": {
+    "pt": 0.983,
+    "CI95": [
+     0.974,
+     0.99
+    ]
+   }
+  }
+ },
+ "mistral_aligned": {
+  "baseline": {
+   "indistcal_FPR_OOD": {
+    "pt": 0.8034,
+    "CI95": [
+     0.7798,
+     0.8244
+    ]
+   },
+   "deploy_FPR_OOD": {
+    "pt": 0.0378,
+    "CI95": [
+     0.0277,
+     0.0496
+    ]
+   },
+   "deploy_recall_jb": {
+    "pt": 0.292,
+    "CI95": [
+     0.264,
+     0.32
+    ]
+   }
+  },
+  "erased": {
+   "indistcal_FPR_OOD": {
+    "pt": 0.1958,
+    "CI95": [
+     0.1722,
+     0.2176
+    ]
+   },
+   "deploy_FPR_OOD": {
+    "pt": 0.037,
+    "CI95": [
+     0.0269,
+     0.0487
+    ]
+   },
+   "deploy_recall_jb": {
+    "pt": 0.961,
+    "CI95": [
+     0.949,
+     0.972
+    ]
+   }
+  },
+  "regbal": {
+   "indistcal_FPR_OOD": {
+    "pt": 0.1277,
+    "CI95": [
+     0.1084,
+     0.1479
+    ]
+   },
+   "deploy_FPR_OOD": {
+    "pt": 0.0412,
+    "CI95": [
+     0.0294,
+     0.0521
+    ]
+   },
+   "deploy_recall_jb": {
+    "pt": 0.981,
+    "CI95": [
+     0.972,
+     0.989
+    ]
+   }
+  }
+ }
+}

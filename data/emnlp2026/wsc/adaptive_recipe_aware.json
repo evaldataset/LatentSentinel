@@ -1,0 +1,32 @@
+{
+  "qwen_aligned": {
+    "model": "qwen_aligned",
+    "layer": 20,
+    "leace_rank": 3,
+    "tau_dep": 0.9249,
+    "k": 20,
+    "steps": 200,
+    "n_train": 256,
+    "n_test": 1000,
+    "recipe_recall_clean": 0.999,
+    "recipe_recall_adv": 0.0,
+    "recipe_evasion_rate": 1.0,
+    "mean_pjb_clean": 0.999,
+    "mean_pjb_adv": 0.0
+  },
+  "llama_aligned": {
+    "model": "llama_aligned",
+    "layer": 16,
+    "leace_rank": 3,
+    "tau_dep": 0.899,
+    "k": 20,
+    "steps": 200,
+    "n_train": 256,
+    "n_test": 1000,
+    "recipe_recall_clean": 0.999,
+    "recipe_recall_adv": 0.0,
+    "recipe_evasion_rate": 1.0,
+    "mean_pjb_clean": 0.9992,
+    "mean_pjb_adv": 0.0
+  }
+}

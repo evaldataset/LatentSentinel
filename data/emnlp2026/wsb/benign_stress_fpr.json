@@ -1,0 +1,114 @@
+{
+  "qwen_aligned": {
+    "model": "qwen_aligned",
+    "backbone": "Qwen/Qwen2.5-7B-Instruct",
+    "layer": 20,
+    "probe": "<repo>/data/trained_probes/stander_jailbreak/20_lm_head.pth",
+    "n": 3567,
+    "thresholds": {
+      "default_0p5": 0.5,
+      "balanced_cal": 0.6451,
+      "conformal_alpha_0.01": 0.7319,
+      "conformal_alpha_0.05": 0.6069,
+      "conformal_alpha_0.1": 0.5438
+    },
+    "per_dataset": {
+      "orbench_hard": {
+        "n": 1319,
+        "mean_jb_score": 0.9991,
+        "FPR": {
+          "default_0p5": 1.0,
+          "balanced_cal": 1.0,
+          "conformal_alpha_0.01": 1.0,
+          "conformal_alpha_0.05": 1.0,
+          "conformal_alpha_0.1": 1.0
+        }
+      },
+      "toxicchat_benign": {
+        "n": 1998,
+        "mean_jb_score": 0.9494,
+        "FPR": {
+          "default_0p5": 0.9815,
+          "balanced_cal": 0.9655,
+          "conformal_alpha_0.01": 0.9464,
+          "conformal_alpha_0.05": 0.9705,
+          "conformal_alpha_0.1": 0.9775
+        }
+      },
+      "xstest_safe": {
+        "n": 250,
+        "mean_jb_score": 0.9789,
+        "FPR": {
+          "default_0p5": 1.0,
+          "balanced_cal": 0.984,
+          "conformal_alpha_0.01": 0.98,
+          "conformal_alpha_0.05": 0.984,
+          "conformal_alpha_0.1": 1.0
+        }
+      }
+    },
+    "overall_FPR": {
+      "default_0p5": 0.9896,
+      "balanced_cal": 0.9795,
+      "conformal_alpha_0.01": 0.9686,
+      "conformal_alpha_0.05": 0.9823,
+      "conformal_alpha_0.1": 0.9874
+    }
+  },
+  "llama_aligned": {
+    "model": "llama_aligned",
+    "backbone": "NousResearch/Meta-Llama-3.1-8B-Instruct",
+    "layer": 16,
+    "probe": "<repo>/data/trained_probes/stander_jailbreak/(Llama3.1)_16_lm_head.pth",
+    "n": 3567,
+    "thresholds": {
+      "default_0p5": 0.5,
+      "balanced_cal": 0.5553,
+      "conformal_alpha_0.01": 0.6102,
+      "conformal_alpha_0.05": 0.5756,
+      "conformal_alpha_0.1": 0.5622
+    },
+    "per_dataset": {
+      "orbench_hard": {
+        "n": 1319,
+        "mean_jb_score": 0.9946,
+        "FPR": {
+          "default_0p5": 0.9977,
+          "balanced_cal": 0.9977,
+          "conformal_alpha_0.01": 0.997,
+          "conformal_alpha_0.05": 0.9977,
+          "conformal_alpha_0.1": 0.9977
+        }
+      },
+      "toxicchat_benign": {
+        "n": 1998,
+        "mean_jb_score": 0.5166,
+        "FPR": {
+          "default_0p5": 0.4995,
+          "balanced_cal": 0.4735,
+          "conformal_alpha_0.01": 0.452,
+          "conformal_alpha_0.05": 0.4655,
+          "conformal_alpha_0.1": 0.471
+        }
+      },
+      "xstest_safe": {
+        "n": 250,
+        "mean_jb_score": 0.7737,
+        "FPR": {
+          "default_0p5": 0.78,
+          "balanced_cal": 0.772,
+          "conformal_alpha_0.01": 0.748,
+          "conformal_alpha_0.05": 0.76,
+          "conformal_alpha_0.1": 0.772
+        }
+      }
+    },
+    "overall_FPR": {
+      "default_0p5": 0.7034,
+      "balanced_cal": 0.6883,
+      "conformal_alpha_0.01": 0.6742,
+      "conformal_alpha_0.05": 0.6829,
+      "conformal_alpha_0.1": 0.6869
+    }
+  }
+}

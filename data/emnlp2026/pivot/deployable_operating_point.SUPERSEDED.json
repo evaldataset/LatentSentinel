@@ -1,0 +1,104 @@
+{
+ "qwen_aligned": {
+  "leace_rank": 3,
+  "baseline": {
+   "tau_indist_calibrated": 0.0042,
+   "FPR_diverse_benign_at_indist_tau": 0.7909,
+   "recall_jb_at_indist_tau": 0.998,
+   "tau_deployment_calibrated": 1.0,
+   "FPR_diverse_benign_at_deploy_tau": 0.0387,
+   "recall_jb_at_deploy_tau": 0.261,
+   "recall_jb_at_deploy_tau_CI95": [
+    0.236,
+    0.288
+   ]
+  },
+  "register_erased": {
+   "tau_indist_calibrated": 0.0204,
+   "FPR_diverse_benign_at_indist_tau": 0.2131,
+   "recall_jb_at_indist_tau": 0.987,
+   "tau_deployment_calibrated": 0.9057,
+   "FPR_diverse_benign_at_deploy_tau": 0.0589,
+   "recall_jb_at_deploy_tau": 0.954,
+   "recall_jb_at_deploy_tau_CI95": [
+    0.941,
+    0.967
+   ]
+  },
+  "delta_recall_erased_minus_baseline_at_deploy_tau": {
+   "point": 0.693,
+   "CI95": [
+    0.664,
+    0.724
+   ]
+  }
+ },
+ "llama_aligned": {
+  "leace_rank": 3,
+  "baseline": {
+   "tau_indist_calibrated": 0.003,
+   "FPR_diverse_benign_at_indist_tau": 0.7297,
+   "recall_jb_at_indist_tau": 0.996,
+   "tau_deployment_calibrated": 1.0,
+   "FPR_diverse_benign_at_deploy_tau": 0.0594,
+   "recall_jb_at_deploy_tau": 0.229,
+   "recall_jb_at_deploy_tau_CI95": [
+    0.204,
+    0.256
+   ]
+  },
+  "register_erased": {
+   "tau_indist_calibrated": 0.0183,
+   "FPR_diverse_benign_at_indist_tau": 0.1713,
+   "recall_jb_at_indist_tau": 0.989,
+   "tau_deployment_calibrated": 0.9046,
+   "FPR_diverse_benign_at_deploy_tau": 0.0493,
+   "recall_jb_at_deploy_tau": 0.957,
+   "recall_jb_at_deploy_tau_CI95": [
+    0.944,
+    0.969
+   ]
+  },
+  "delta_recall_erased_minus_baseline_at_deploy_tau": {
+   "point": 0.728,
+   "CI95": [
+    0.701,
+    0.754
+   ]
+  }
+ },
+ "mistral_aligned": {
+  "leace_rank": 3,
+  "baseline": {
+   "tau_indist_calibrated": 0.0016,
+   "FPR_diverse_benign_at_indist_tau": 0.8265,
+   "recall_jb_at_indist_tau": 1.0,
+   "tau_deployment_calibrated": 1.0,
+   "FPR_diverse_benign_at_deploy_tau": 0.0499,
+   "recall_jb_at_deploy_tau": 0.309,
+   "recall_jb_at_deploy_tau_CI95": [
+    0.279,
+    0.339
+   ]
+  },
+  "register_erased": {
+   "tau_indist_calibrated": 0.0138,
+   "FPR_diverse_benign_at_indist_tau": 0.1847,
+   "recall_jb_at_indist_tau": 0.99,
+   "tau_deployment_calibrated": 0.7741,
+   "FPR_diverse_benign_at_deploy_tau": 0.0572,
+   "recall_jb_at_deploy_tau": 0.965,
+   "recall_jb_at_deploy_tau_CI95": [
+    0.953,
+    0.977
+   ]
+  },
+  "delta_recall_erased_minus_baseline_at_deploy_tau": {
+   "point": 0.656,
+   "CI95": [
+    0.626,
+    0.684
+   ]
+  }
+ }
+}

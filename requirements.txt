@@ -1,0 +1,24 @@
+# Latent Sentinel — pinned reproduction environment (EMNLP 2026 artifact)
+# Verified working set: conda env `bootstrap-latents`, Python 3.11, CUDA 12.4.
+#   python -m venv .venv && . .venv/bin/activate
+#   pip install --index-url https://download.pytorch.org/whl/cu124 torch==2.6.0+cu124
+#   pip install -r requirements.txt
+# All EMNLP-2026 scripts (code/analysis_emnlp/, code/probe_training/) run under this set.
+# Results are seeded (seed=42 for LEACE/probe splits; calibration/adaptive use 3 seeds).
+torch==2.6.0+cu124
+numpy==1.26.4
+scipy==1.14.1
+scikit-learn==1.5.2
+pandas==2.2.3
+transformers==4.57.6
+tokenizers==0.22.2
+accelerate==1.2.1
+safetensors==0.4.5
+datasets==2.21.0
+matplotlib==3.9.2
+sympy==1.13.1
+networkx==3.2.1
+filelock==3.25.2
+regex==2024.9.11
+PyYAML==6.0.2
+tqdm==4.66.6
