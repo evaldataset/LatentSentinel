@@ -1,3 +1,0 @@
-identifier-leak scan (anon bundle, sanitized)
-patterns: institution slug | author IDs | absolute home/workspace paths
-hits: 0
